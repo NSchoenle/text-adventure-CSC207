@@ -1,0 +1,592 @@
+This is the “Go Home” Adventure game. Your goal is to get back to your home safely.
+
+ROOM : Office
+
+You’ve had a grueling day at work, and you really don’t wanna be here anymore. You’ve cleaned up your workstation (a desk that’s about a foot too short, a chair that leans too far back, and a filing cabinet made for a Hobbit). It’s dark outside; everyone else has been gone for at least an hour or two. The office is quiet; even your desktop computer is already asleep. Lucky bastard.
+
+> Wait: Seriously? You really don’t want to, but you stand around silently for another five minutes. Maybe you’re just that tired.
+
+> Look at <computer>: It’s asleep. Much like you should be. There’s bits of food stuck in the keyboard. Also much like you should be. That didn’t make sense. God, you need a nap.
+
+	<desk>: Your apartment keys and phone are sitting on the desk, next to some dumb coffee cup your aunt gave you for Christmas. You don’t even drink coffee. There was a pile of papers on your desk earlier, but you finished reading through them just now (they are all sitting in the trash bin next to your desk). There’s nothing in the drawers besides a few crude caricatures of your supervisor.
+
+	<chair>: You’re not sure how you fit your butt on that thing, but you do, from 9:03 AM ’til 10:15 PM, almost every day of the week. If you try to lean back too far, you feel like you’re free-falling and almost have a heart attack. Every time.
+
+	<cabinet>: Yeah. You’ve never used this thing. It barely holds a children’s book, much less the stacks of paper your supervisor dumps on your desk on a daily basis.
+
+	<office>: Uh, it’s actually pretty dark and eerie in here. You really hope your buddy Kal was joking when he said some guy hung himself in the break room years ago. Although, you’d kinda understand it if someone did. The donuts are always stale. 
+
+	<object>: You’re not sure where that’s at. Maybe you’re hallucinating.
+
+
+> Talk to <ghost>: Hahahahahahaha. No, let’s not.
+
+	<self>: You’re reaaaaaally tired.
+
+	<object>: You say “Hey, <object>.” No answer. What a surprise.
+
+> Pick up <keys>: Hey! There’s a good idea! You shove your keys into your pocket.
+
+	<phone>: Nice. Good job. You’re proud of yourself for being so coherent, considering the circumstances. You shove your phone into your pocket.
+
+	<cabinet>: Heck no. You don’t want this piece of junk.
+
+	<computer>: One day, you will have had Enough of This Shit, and you’ll just steal every piece of junk in this building worth more than $10. But today is not that day.
+
+	<object>: Hmmmmm. Nah. Nuh-uh.
+
+> Attack <computer>: You viciously attack the computer. It’s defenseless and unaware, so it doesn’t see you coming. You’re gonna have to pay for that later.
+
+	<cabinet>: It may be small, but you have a feeling that would be a losing battle.
+
+	<chair>: Yeah, it’s not like it’s broken enough already. (You leave it alone.)
+
+	<object>: You’re too tired to do that.
+
+> Use <phone>: You stare at the phone. It doesn’t do anything. So much for using the force.
+/ You pull your phone out of your pocket, and open it up. You have 9% battery left. You have no new texts. There are a few junk apps on your main screen, and the Uber app and Pokemon Go (sure, it died out 4 months ago, but you gotta catch ‘em all). You happen to know that the Uber drivers around here are disgusting &/or creepy. You would rather not call for one. You put your phone away in your pocket.
+
+	<computer>: You busted it. / Let it sleep.
+
+	<keys>: You pull your keys out of your pocket and carve a tally mark into the side of your desk. You sigh and put your keys back into your pocket.
+
+	<object>: You’re not sure what you were thinking, but it was a really dumb idea.
+
+> Go <south> / <outside>: You make your way over to the exit, and step outside. The door is still unlocked.
+
+	<east> / <west> / <north>: You hit a wall, but you can’t really feel anything because some of your nerve endings are already asleep.
+
+ROOM: Outside of Office
+
+It’s not a bad night out. Why, you might even fancy a stroll through the dim-lighted streets, if you weren’t, you know, 10 seconds from passing out in the nearest bush. Or, at least if the crime rate in this neighborhood wasn’t so ridiculously high that you were likely to be robbed by a pigeon on your way to work. It’s still pretty dark out. You can see the streets alright, but the alleyways offer no information if you try to peer into them. There’s trash on the sidewalk. There’s always trash on the sidewalk. On second thought, that might just be the sidewalk. 
+
+Your apartment is a few blocks east of the office. There’s a Krispy Kreme a few buildings to the west. There’s a park to the south that you like to go to on Sundays to watch dogs play. You don’t know what lies to the north, because your only real goals in life are to eat junk food, coo at puppies, and live another day. 
+
+> Wait: Sure, yeah. Let’s just stand here and wait to faint on the sidewalk. 
+
+> Talk to <self>: You’re reaaaaaally tired.
+
+	<object>: You say “Hey, <object>.” No answer. What a surprise.
+
+> Use <phone>: What phone? :-]
+/  You pull your phone out of your pocket, and open it up. You have 8% battery left. You have no new texts. There are a few junk apps on your main screen, and the Uber app and Pokemon Go (sure, it died out 4 months ago, but you gotta catch ‘em all). You happen to know that the Uber drivers around here are disgusting &/or creepy. You would rather not call for one. You put your phone away in your pocket.
+
+	<keys>: You don’t have any keys on you.
+/ You remove your keys from your pocket and position yourself in the street in front of the office. You make engine-starting noises while turning the keys in an imaginary  ignition. You should probably make an appointment with a psychiatrist soon. You sadly turn off your fake car and put your keys back into your pocket.
+
+> Pick up <trash>: O…kaaaaay. You pick up a wadded-up ball of paper on the sidewalk.
+
+> Look at <trash>: It looks kinda like a piece of shit from here. It’s not a penny, so you don’t really pay much attention to it.
+/ You pull the trash wad out of your pocket. There’s a coupon in here! Oh, no.. it’s 2 years old. Never mind. The other pieces of trash are from some …used newspaper. Eugh. 
+
+> Attack <trash>: You kick at the wad of trash. It doesn’t react. That wasn’t satisfying at all.
+
+> Go <north>: You’re feeling kind of adventurous. You think ‘Hey, if I’m gonna get murdered tonight, I might as well try to die in a new shithole.’ and head along the street to the north of the office. —> Go to room: Adventure!
+
+	<south>: The best remedy to a bad day is cute animals, so you start off towards the park, forgetting that it is night and the kinds of dogs in the park right now, if any, are probably not the cute cuddly ones. —> Go to room: Dog Park
+
+	<east>: You turn towards your haven, your home, your cheap, claustrophobic little apartment full of technically-not furniture and you-don’t-want-to-know stains. —> Go to room: On the Way Home
+
+	<west>: You just really want donuts that haven’t been sitting in someone’s car for three weeks. You go west of the office, towards the Krispy Kreme. —> Go to room: Krispy Kreme
+
+——————————————————————
+	<literally anywhere else>: You decide to pick an entirely ridiculous destination: <literally anywhere else>. You walk about four steps in some random direction and immediately kiss pavement.
+
+	Congrats! You fainted from fatigue! Later, you’ll wake up in the back of a truck with some sticky, black substance on your face (you hope it’s melted black licorice), surrounded by people speaking a language you don’t understand. You obviously didn’t make it home, and you obviously aren’t safe.
+
+BAD END
+——————————————————————
+
+
+ROOM: On the way home.
+
+	You’re a few buildings west of your apartment, and you can hear that someone in the apartment across the street is upset that Mr. T was eliminated from Dancing With The Stars. You pity the fool.
+
+	You’re passing by another dark alley to the north when you hear muffled sobs and shuffling under the not-so-muffled wailing covering a resigned Mr. T saying: “You might not have the things you want, but if you check carefully, you got all you need.” 
+
+> Look at <alley>: You peer around the corner of the alley. You can barely make out a dark, hulking figure towering over the hunched, quivering figure of a man on the verge of pissing himself, who has been backed into a corner behind some trash cans.
+
+	<apartment>: You look towards where sounds of the lamenting T fan are coming from. The window is closed. Probably a good idea on their part, but also not helpful to your ears.
+
+	<phone>: You don’t have your phone. :-[
+/ You pull your phone out of your pocket, and open it up. You have 2% battery left. You have no new texts. There are a few junk apps on your main screen, and the Uber app and Pokemon Go (sure, it died out 4 months ago, but you gotta catch ‘em all). Uber drivers are creepy, but so is the probably-murderer in the alley. You think they’d get along quite well.
+
+> Attack <large figure>: But you’re over here and they’re over there, which, coincidentally, isn’t over here. If you were also over there, you could start something, but that’s assuming that the figure was still over there while you were also over there, which is not here. It wouldn’t really work to be over there and try to attack someone over here, which you’re kind of thankful in this case, because you’re over here and not there, and they are over there and not here.
+
+	<hunched man>: A) That’s rude, and B) you’re too far away. You’re gonna need to get closer to hit anybody.
+
+	<other>: How about no.
+
+———————————————————————————
+> Use <phone>: You pull your phone out of your pocket to dial 911. Yeeeaaaah. You’re so smart and responsi- 
+
+	Your phone starts ringing. The caller ID says it’s Kal. He’s probably drunk-calling you from a party again. You don’t have time to pick it up, because the maybe-hulk comes rushing around the corner of the alley, and smashes your face in. 
+You wake up much later in a hospital bed with a broken nose and, like, 6 black eyes, probably. You aren’t sure. You’re gonna be here for a while.
+
+BAD END
+———————————————————————————
+
+> Talk to <large figure>: You almost shout “Hello!” to the large, fearsome figure brutalizing some poor guy in an alleyway, but you stop yourself just in time. Phew.
+
+	<hunched man>: You want to call out to the guy shaking on the ground, but he’s got his hands wrapped around his head to protect himself, and you don’t think he’d hear you. You whisper “It’s gonna be okay, buddy.” under your breath. You feel like a hero.
+
+	<window>: You think whoever it is up there is having a crappy enough night without talking to you. Besides, you want Simone to win.
+
+	<self>: You pace back and forth a bit on the sidewalk, murmuring to yourself: ’What have you gotten yourself into? It’s not your fault! You didn’t do anything wrong. You did take this job, though; that’s your fault. Maybe this is just karma. God, what are you even doing here?’
+
+	“What are you doing here?”
+
+	That wasn’t your head voice. That wasn’t even your actual voice. —> Go to new room: In trouble.
+
+> Go <east>: You desperately sprint past the open alleyway towards your apartment. You’ll feel bad about possibly leaving some guy to die when you actually grow a conscience. All that matters is that you’re coming up to your end goal, and you have all of your limbs still. —>Go to room: Outside Apartment
+
+———————————————————————
+	<west>: Alright, so, obviously, some higher power has decided that you don’t live in this direction anymore. Noooo sirr-eeeeee. You live in the office now. Forever. You sneak back to the office and curl up under your desk inside. 
+You wake up the next morning to see your boss standing over you with another stack of files. You sigh, and die a little more inside.
+
+COMPLETE FAIL OF AN END
+———————————————————————
+
+	<north>: Okay. It’s time for you to be a hero. You weren’t meant to sit in some cruddy chair in some cruddy office while reading cruddy reports. You were meant to help people - to fight crime. You step into the alley. —-> Go to room: The Danger Zone
+
+	<direction>: You’re a little scared to move right now for fear of making noise and luring the hulk out here. You shiver just thinking about it.
+
+> Wait: You figure taking a bit longer to get home at risk of death is better than most certainly getting caught and most certainly dying. You hear someone walking this  way shortly after a few seconds, so you try to huddle up in an entryway to avoid being seen.
+
+	“What are you doing here?”
+
+	It didn’t work.  —>Go to new room: In trouble.
+
+ROOM: In trouble. (I know that’s not a legit room name but we’re doing it. Alternative title: Screwed.)
+
+	Wow, you’re much better at stealth in video games. The not-hulk is standing on the sidewalk, staring at you with suspicion. He figures you heard everything going down in the alley, but since you didn’t call police or anything, he thinks you’re either nuts or you don’t have a phone on you. / He is right about both of those things.
+
+	“Panicking,” you answer.
+
+	He grunts. You’re not sure if that was amusement or sympathy. “Show me what’s in your pockets.”
+
+	You open your pockets.
+	/He spots your phone, and flicks his eyes back up to your face. Now you both know that you’re batshit crazy. He takes your phone. / He sees your apartment keys. You know he doesn’t know where you live, and he can kinda tell that you don’t have anything worth stealing anyways. He takes them and throws them into a trash bin in the alley. Shit. You just got robbed by Kobe. / He sees the crumpled ball of trash. He’s confused for a moment, but then he sees the coupons. “Oh, shit,” he says excitedly as he takes the coupons from you, but then he sees that they’ve expired, and his face falls. “Never mind.” He gives them back to you.
+
+> Wait: You wait quietly for him to finish rifling through your belongings. He snorts when he’s finished, cuz you haven’t got jack shit on you. He saunters away down the street, takes a turn, and then you’re alone on the sidewalk, listening to the applause of the crowd of Dancing With The Stars. 
+
+
+> Talk to <object>: You think you’re gonna keep your mouth shut.
+
+————————————————————————————
+	<large man>: “So, uh, is that a gun in your pocket or are you just happy to see me?”
+
+	He stares at you for a moment, then shoves a hand into his pocket, and takes out- Oh. OOH. THAT’S A GUN. OOOOOH NOOOO, THAT’S A GUN.
+
+	You faint on the spot. Later, you’ll wake up in the back of a truck with some sticky, black substance on your face (you hope it’s melted black licorice), surrounded by people speaking a language you don’t understand. You obviously didn’t make it home, and you obviously aren’t safe.
+
+BAD END Alternative Title: HIS HIPS DON’T LIE 
+—————————————————————————————
+
+> Look at <large man>: He’s got a squinty eye and a huge jaw. Christ, this guy probably chews on jawbreakers like they’re marshmallows. You figure the squinty eye is a side effect of the drugs that this guy probably beats out of his victims. / You figure you should try to memorize this guy’s face. Oh, wait, he’s not here anymore.
+
+	<alley>: The guy in the alley isn’t making anymore noises. You hope that just means he fell asleep. 
+
+	<window>: You spit in the direction of the window. “Mr. T didn’t deserve to win anyways,” you mumble to yourself.
+
+	<object>: You’d turn your head to look at that, but A) you’re not sure you’re not hallucinating it and B) the dude might decide to break your neck, in which case there would be head turning of the not-so-fun kind.
+
+> Pick up <object>: You wouldn’t dare move while this guy still has functioning eyes, ears, and a nose. / There’s nothing to pick up here.
+
+> Use <phone>: You have no idea where it is now.
+
+	<keys>: Sure, you could stand in the street and pretend to drive away in a car without your apartment keys, but you’re not really in the mood. Your keys are in the alley. / You don’t know where your keys are.
+
+	<object>: You had a dumb idea that you scrap immediately, and you can’t even blame it on a concussion. 
+
+> Attack <object>: You swing your arms at some invisible object. The man is confused, and then just perturbed. He backs off of you a few steps, and then saunters away down the street, takes a turn, and then you’re alone on the sidewalk, listening to the applause of the crowd of Dancing With The Stars.
+
+——————————————————————————
+	<large man>: You try to throw a punch at the thug. You miss horribly. You probably got so excited that you forgot you were beat tired and need a nap. The guy helps you fulfill your goal of a nice long rest by smashing your face in. 
+You wake up much later in a hospital bed with a broken nose and, like, 6 black eyes, probably. You aren’t sure. You’re gonna be here for a while.
+
+BAD END
+——————————————————————————
+
+> Go <east>: You’re gonna just… wait here with your new frenemy. / You book it back to your apartment. ——> Go to room: Outside apartment
+
+	<north>: You’re gonna just… wait here with your new frenemy. / You step into the alleyway. —> Go to room: Quiet Alley
+
+	<west>: You’re gonna just… wait here with your new frenemy. / No. Nuh-uh. The guy JUST walked that way. You might never go west again. 
+
+—————————————————————————————————
+	<direction>: You’re gonna just… wait here with your new frenemy. / You are sooooo mentally unstable right now. You walk about four steps in some random direction and immediately kiss pavement.
+
+	Congrats! You fainted from fatigue! Later, you’ll wake up in the back of a truck with some sticky, black substance on your face (you hope it’s melted black licorice), surrounded by people speaking a language you don’t understand. You obviously didn’t make it home, and you obviously aren’t safe.
+
+BAD END
+——————————————————————————————————
+
+ROOM: Outside Apartment
+
+You’re finally at your apartment door! Phew! The exit on the north side of the building closed behind you when you ran in, so there shouldn’t be anymore danger if you were being followed.
+
+——————————————————————————————
+> Wait: You take a moment to congratulate yourself on making it back. That moment takes a bit too long, however, and you faint right in front of your door. 
+You wake up with a piece of candy on your lap. It’s either from the old woman two doors down who keeps a stash of vintage candies in her purse, or it’s from the toddler that lives in the room across from yours. Either way, you’re touched. 
+You’re mostly home, mostly safe, and more than satisfied with that.
+
+GOOD END
+——————————————————————————————
+
+> Look at <door>: Ahhhhhhhhhhhhh home. Just gotta, you know, go in it.
+
+	<hallway>: It’s empty.
+
+	<object>: There’s nothing there.
+
+	<phone>: You don’t have your phone. / You pull your phone out of your pocket, and turn on the screen. No, wait. Never mind, it’s dead. You shove the dead hunk of plastic back into your pocket. 
+
+	<keys>: You don’t have your keys. Those are kinda important for this step, buddy. / You pull out your keys and look at them. You shift your vision from the keys to the door, and then back again. You repeat this a few times. You kinda look like a caveman about to discover fire, but it’s okay because the only people that know/see what you’re doing are the writers, and it’s their fault you’re like this.
+
+> Use <phone>: You don’t have your phone. / You pull your phone out of your pocket. It’s dead, which is okay, because you don’t know what you were gonna do with it anyways. You shove it back in your pocket.
+
+	<trash>: You don’t have any trash. Ew. / You think the newspaper and junk you picked up earlier would make for a pretty cool, abstract door sign. You smack it onto the door. It falls. Huh. You forgot about gravity. You pick the papers back up; you don’t want any dirty looks from your elderly neighbors.
+
+	<battle axe>: A what????? Why would you have that??? / Heh, nah. You like your door being reusable, and taking an axe to it would ruin that.  
+
+	<object>: You don’t have any of those.
+
+——————————————————————————————
+	<keys>: You don’t have your keys. / You pull your keys out of your pocket and slide them into the keyhole. In one swift motion, you step into your apartment, lock the door, and shove the door firmly shut behind you. You turn and jump at the sight of someone wielding an axe before you. Your heart is beating a bit faster now, but you calm down when you remember that you have a twisted sense of humor and decided to place a cardboard standee of Cannibal Shia Leboeuf just inside your door. You kinda hate yourself for that, but you’re also kinda proud. 
+
+You flop into a beanbag chair (you can’t afford real furniture), and immediately doze off - safe and sound.
+
+GOOD END
+——————————————————————————————
+
+——————————————————————————————
+> Attack <object>: Your anger from working ridiculous hours at work and possibly encountering a murderer bubbles up from somewhere not-so-deep inside you. You whip around semi-silently in the hallway in search of something to hit, but that also makes you dizzy. You lose consciousness halfway to the floor.
+You wake up with a piece of candy on your lap. It’s either from the old woman two doors down who keeps a stash of vintage candies in her purse, or it’s from the toddler that lives in the room across from yours. Either way, you’re touched. 
+You’re mostly home, mostly safe, and more than satisfied with that.
+
+GOOD END
+——————————————————————————————
+
+——————————————————————————————
+	<door>: Your anger from working ridiculous hours at work and possibly encountering a murderer bubbles up from somewhere not-so-deep inside you. You move to punch down the door, but you’re super weak and tired. Your fist makes a soft thud on the door and you faint right there. 
+You wake up with a piece of candy on your lap. It’s either from the old woman two doors down who keeps a stash of vintage candies in her purse, or it’s from the toddler that lives in the room across from yours. Either way, you’re touched. 
+You’re mostly home, mostly safe, and more than satisfied with that.
+
+GOOD END
+——————————————————————————————
+
+
+> Go <north>: Alright, cool, you leave the building again. For some reason. Hopefully good one . —> Go to room: Back to work?
+
+	<east> / <west>: You take a few steps down the hallway. There’s nothing over here either, and you don’t know why you had to come over here to know that when you could see the rest of the hallway pretty clearly from in front of your door. Sure, you could knock on a door, but you know for a fact that no one ever answers past 9’o’clock; either because they’re passed out, or drunk, or both. You make your way back over to your door.
+
+——————————————————————————————
+	<south>: You stride right into your door, forgetting that you didn’t get beaten to death in some dark alleyway and are not a ghost. Anyways, you knock yourself out.
+You wake up with a piece of candy on your lap. It’s either from the old woman two doors down who keeps a stash of vintage candies in her purse, or it’s from the toddler that lives in the room across from yours. Either way, you’re touched. 
+You’re mostly home, mostly safe, and more than satisfied with that.
+
+GOOD END
+——————————————————————————————
+
+ROOM: Krispy Kreme
+
+You walk into the Krispy Kreme through an entrance on the south side of the building. You watch the hot light flicker in the window. All you want is a hot doughnut. The counter is in front of you, and a mean looking cashier stares you down behind a full display case .  In classic Krispy Kreme style, there is a window behind which sits a doughnut machine making those sweet dream-cakes you love so much. 
+
+You also take a moment to prepare yourself for inconsistent usage of ‘doughnut’ and ‘donut’ because author number two decided to be a spell-checker and refuses to use the ‘ugh’. If you have a problem with that, you can ‘gough’ shove it.
+
+> Wait : You take in the smells some more. The cashier is starting to give you angry looks.
+
+> Look at <doughnut machine>: You press your face to the glass. It smells so good, and the machine is so entrancing. You want to steal all of the sweetness. You think that, if there’s a heaven, it’s gotta have one of these machines, because obviously the birthplace of donuts is the home of goodness and joy. It occurs to you that you’re basically watching donuts being born. “This is much better than health class,” you mutter loud enough for the cashier to hear. Now they just look repulsed. 
+
+	<display>: You stare longingly at the doughnuts through the glass. The longer you stare, the more they smile. You wave when one of them gives you a thumbs up. Someone (probably the cashier) snaps in your face until the doughnuts return to normal.
+
+	<cashier>: You walk up to the cashier and just stare at them. They look like a college student who would much rather be partying than working.
+
+	<table>: Someone drew a cute little poodle on a napkin. It’s pretty good.
+
+	<object>: You stare off into space at something, but you forget about it in favor of imagining a donut being there instead. 
+ 
+> Use <keys>: You don’t have any keys on you. / You remove your keys from your pocket and offer them to the cashier who tells you keys are not acceptable currency. You put them back in your pocket.
+
+	<phone>: You don't have your phone. / You take your phone out, but you really just want a doughnut and a phone isn't acceptable currency, either. BLUH. You wish you could just go back to the olden days, when people offered items for trade, and chicken-watcher was considered a respectable job. You sigh, but then you remember that you probably would have died back then because medicine kinda sucked. 
+
+	<trash>: You pull out the crumpled pile of junk you picked up earlier, and hold it out to the cashier. The cashier is not amused. Fine then. More junk for you. You put the trash back into your pocket. / You don’t have any with you.
+
+	<other>: The cashier watches you search your pockets for ITEM and you get worried so you stop looking.
+
+———————————————————————
+> Go <north>: You try to walk north to the kitchen but you are stopped by the cashier. They call for backup and you are overpowered. You pass out as someone calls the cops. Not the worst thing on your criminal record. In fact, you think there’s a nice juxtaposition to donut-dream-walker and lit-their-hair-on-fire-as-a-seven-year-old.
+
+IT’S AN END (Authors shrug)
+———————————————————————
+
+	<south>: You exit the donut shop, because seriously, what were you even gonna do in there with no money or sanity? Carry out the world’s greatest donut heist? Fly off into the night with a duffel full of sugar-coated death? “Some day…” you mumble grumpily while kicking at the pavement. ——> Go to room: Outside Office
+
+———————————————————————
+	<Other>: You try to leave the doughnut shop via a window. You fight your way free of the glass, but are stopped by police as you try to flee the Krispy Kreme you just trashed. You think the place needed more exits anyways. That place gets PACKED at lunch time, and you’re pretty sure a building full of slow-moving foodies with only one exit is a fire hazard. The cops don’t agree.
+
+BAD END
+———————————————————————
+
+———————————————————————
+> Attack <Cashier>: You take a dive at the cashier, who proceeds to flip you over their shoulder, climb on top of you, and put you in a key lock. You feel your arm being ripped off and black out from the pain. 
+
+BAD END
+———————————————————————	
+
+	<Doughnut Machine>: What fool would be so mindless as to damage a gift from the powers that be? Not you. One day, this machine may be your overlord, and honestly, you are excited for that day.
+
+	<Other>: You start wildly trying to attack ITEM but you realize someone is watching, and you are in no fit state to fight and you are losing in front of spectators.
+
+> Talk to <Cashier>: You try to chat up the person at the register: “How do you spell do(ugh)nuts, amig- uhh, friend?” They aren't feeling friendly and ask you to order. When you say you don't have any cash, they just yell "WHO'S NEEEEEEXXTTT!!!!" at the empty line behind you.
+
+	<self>: “Doooooooooooonuuuuuuuuuuutsssss.”
+
+	<other>: You are entirely too enraptured with the sweets before you to think about anything else.
+
+	<donuts> / <doughnuts>: “Hey hot stuff,” you call to the gooey dough rings. They don’t answer, but you’re pretty sure one winked at you.
+
+> Pick up <napkin>: You pocket the napkin with the poodle drawing on it. You wish you could have gotten a signature.
+
+	<Other>: You try to take ITEM, but you begrudgingly put it back when the cashier glares at you.
+
+ROOM: Quiet Alley
+
+You step into the alleyway. It’s dim but you can tell that there’s one open trash bin, a rat feeding on an old piece of pizza, and the body of some dude slumped against a wall. 
+
+——————————————————————————————
+> Wait: You aren’t sure what to do. You aren’t sure what you’ve done up to this point in your life either, but you got here anyways, so you figure you’ll just wait around silently for a bit until something happens.
+Something happens about 10 minutes later when a cop car shows up. An officer hops out of the car and runs over to you with their hand on their taser. “FREEZE,” they yell. 
+You realize that you are standing over a seemingly-dead man in a dark alley. Crap. Crappity-crap. You see a head move out of the way of the window that Mr. T was preaching from earlier. That jerk COULD hear what was going outside the window. You shoot the window a dirty look as the officer puts you in cuffs and escorts you to the back of the cruiser. You pout on the way to jail, but hey, look at the bright side: You don’t have to go back to your garbage job tomorrow, you get an actual, legitimate bed to sleep on, food that was made specifically of human consumption, and maybe even entertainment or friends that don’t drunk dial you in the dark of the night. It’s not home but you’ll take it.
+
+BETTER THAN EXPECTED END
+——————————————————————————————
+
+> Look at <dude> / <guy> / <man>: You step over to the guy and check his pulse. He’s still breathing, but it looks like there’s a pretty sick-looking bruise forming on his temple. He’s gonna be the most bad-ass guy in his workplace. You’re almost jealous. His pockets have been pulled inside-out. They’re empty.
+
+	<rat>: You stare hungrily at the rat eating the pizza slice. The rat sees you looking and hisses at you. You aren’t sure what you were considering eating. 
+
+	<trash bin>: You look in the trash bin. Yup! There’s your keys! You thank all that is good in the world. The wrist-lanyard on your keys is wrapped around something metal.
+
+	<other>: Woah, buddy. Your eyesight isn’t THAT great. It’s still pretty dark in here. 
+
+> Attack <guy> / <man> / <dude>: You kick at the guy laid against the wall. It kinda feels like you’re just kicking some sad, unconscious pillow. The man doesn’t react. 
+
+	<rat>: You stomp towards the rat. The rat pauses and makes eye contact with you. You’re overcome with a sense of dread and back away. The rat proceeds to chew at the pizza.
+
+	<trash bin>: You kick at the trash bin, and end up stubbing your toe. You hop it off. 
+
+	<other>: Woah, buddy. Your eyesight isn’t THAT great. It’s still pretty dark in here. You’re likely to give yourself a black eye if you start swinging your limbs around in here. 
+
+> Pick up <keys>: You grab your keys out of the dumpster, and as you tug them up, the metal object that was wrapped in your lanyard moves up with it so you can see it. 
+You stare, dumbfounded. There’s a friggin’ battle axe in the dumpster. MAN, that would have been useful 3 minutes ago.
+
+	<battle axe>: You pull the battle axe out and try to tuck it into your pocket. Obviously it doesn’t work, so you settle for running the handle through a belt loop.
+
+	<rat>: You’re not gonna mess with that guy.
+
+	<man>: He’s average size, but too much for you to carry.
+
+	<other>: There’s nothing else here.
+
+> Use <phone> You don’t have your phone.
+
+	<keys>: You didn’t grab your keys yet. / You don’t really want to mess with too much stuff here, y’know, since this is kinda a crime scene and all. 
+
+	<battle axe>: NO. YOU PUT THAT BACK IN YOUR POCKET RIGHT NOW, BUDDY. 
+
+	<other>: You don’t have that with you.
+
+	<trash>: You spread the newspapers and coupons over the man as a blanket. It’s not cold or anything out, but you think it makes the whole scene look less bad.
+
+> Go <direction>: You’re beat tired, and while you might feel a little braver after surviving the night to this point, you just want to go home. You exit the alleyway and make your way to your apartment while ignoring the urges to turn around or run someplace new. —> Go to room: Outside Apartment
+
+ROOM: The Danger Zone
+
+As you step into the alley, both figures stop and turn towards you. They both look like they’re expecting something to happen. There’s a trash bin nearby and a piece of old pizza on the ground. You don’t really have much to work with.
+
+> Wait: You don’t do anything. No one does anything. You all just stare at each other in confusion and expectation.
+
+> Look at <thug>: The thug-looking figure is still shocked to see you’ve stepped into an alley during what is clearly a mugging, but it looks like he’s about to decide to bash your face in. 
+
+	<man>: The guy on the ground looks back at you with an expression of fear mixed with hope.
+
+	<trash bin>: You see something metal sticking out of the bin. Looks useful.
+
+	<pizza>: You’re not that hungry.
+
+	<other>: It’s dark here, and you really don’t want to take your eyes off of the thug.
+
+> Attack <man>: You run up to the man on the ground and kick him. He whimpers in pain and then faints. The thug is visibly confused. That was HIS job. What’s he supposed to do if some tired office-worker picks on the weak instead of him? He looks pretty crestfallen. He feels purposeless. Lost. Outdated. He sadly stumbles out of the alley, turns down the street, and is gone. ——> Go to room: Quiet Alley
+
+—————————————————————
+	<thug>: You try to throw a punch at the thug. You miss horribly. You probably got so excited that you forgot you were beat tired and need a nap. The guy helps you fulfill your goal of a nice long rest by smashing your face in. 
+You wake up much later in a hospital bed with a broken nose and, like, 6 black eyes, probably. You aren’t sure. You’re gonna be here for a while.
+
+BAD END
+—————————————————————
+
+	<pizza>: Woooaaah, kid. The food did nothing wrong. The food is never at fault.
+
+	<trash bin>: You kick at the trash bin, and end up stubbing your toe. You hop it off. 
+	
+	<other>: It’s dark here, and you really don’t want to take your eyes off of the thug.
+
+> Pick up <pizza>: Ew, gross. You’re not that hungry.
+
+	<thug>: You aren’t sure how you could manage to do that.
+
+	<man>: He’s a bit jumpy, so you’re not gonna try to get close to him. 
+
+	<trash bin>: Nah, there’s no way you can lift all of that garbage. You can barely lift yourself.
+
+	<metal thing>: You grab the metal thing sticking out of the trash bin. It’s… Holy hell! It’s a battle axe. Sweeeeeeet!
+
+	The thug jumps in surprise and then hurriedly shuffles around you, and out of the alley, away into the night. You look over to the man on the ground, who is frozen in fear at the sight of you holding a battle axe. He faints against the wall. Oops. —> Go to room: Quiet Alley
+
+	<other>: It’s dark here, and you don’t see anything that looks like that.
+
+> Use <keys>: You take your keys out of your pocket and jingle them in front of you. You whistle at the thug as if you’re calling a dog. He’s not amused. The man on the ground looks even more terrified. You put your keys back into your pocket.
+
+——————————————————————
+	<phone>: You open your phone to see that it has 1% battery left. That’s not good. What’s worse is that the thug thinks you’re gonna call the cops, and slams his fist into your face.
+	You wake up much later in a hospital bed with a broken nose and, like, 6 black eyes, probably. You aren’t sure. You’re gonna be here for a while.
+
+BAD END
+——————————————————————
+
+	<trash>: You fold the coupons into a paper airplane and launch it. It actually flies pretty well. It catches an updraft and drifts up over the edge of a building. Cool.
+
+	<man>: As much as you love the ‘Hit a motherfucker with another motherfucker’ jokes, you don’t think you have the strength to lift the poor guy up.
+
+	<thug>: The author questions your life choices for you. 
+
+	<object>: The what?
+
+> Go <south>: Your nerves leave you the moment you lay eyes on the thug. You quickly turn and book it out of the alley and back to the safety of your apartment. —> Go to room: Outside Apartment
+
+	<east> / <west> / <north> / <direction>: Nowhere to go my friend.
+
+ROOM: Dog Park
+
+The dog park is basically just a huge gated-in rectangle with grass and bushes. There’s only one exit (on the north side of the park) so that the little doggies can’t run away very easily. There’s a few benches and a paved, circular area in the center, but other than that the place is pretty boring. Except for the puppies. Puppies are always great. They don’t even have doggy-bag stations. It’s like they WANT you to leave shit everywhere. You’re somewhat in the mood to comply right now. 
+
+As you saunter towards the center area, you notice a light. It’s not like, a lamp light; it’s more like a fire. A shape blocks out part of the light, and then moves away again. Huh. It happens again. You get a little closer and hear chanting. 
+
+> Wait: The shapes keep moving in front of the fire and the chanting continues, low and steady. You don’t move. Nothing else does.
+
+> Look at <fire> / <shapes>: You creep a bit closer and hide behind a tree. When you crane your neck around the trunk to see the shapes, you notice they’re very Jedi-like. Or, wait, human, but they’re wearing robes. You can’t tell the color of the robes, but they look dark, so maybe they’re Sith? Anyways, this is definitely a cult thing. 
+
+	<phone>: You don’t have your phone. / You look at your phone screen. It doesn’t actually look like you have any power.
+
+	<keys>: You don’t have your keys. / You look at your keys. Nope. Nothing helpful.
+
+	<tree> / <bush> / <bench> / <object>: You don’t see anything else interesting in the area. 
+
+——————————————————————————
+> Attack <figures>: You lunge at one of the figures. You successfully tackle one to the ground and stop their ritualistic dancing. The others flock to you. They grab and scratch at you, and you try to fight them off, but your fatigue catches up with you and your vision fades to black as you faint. 
+
+You wake up in your apartment in your pajamas. Your things are strewn across your desk. Everything looks normal. Was that a dream? 
+
+OKAY END
+——————————————————————————
+
+——————————————————————————
+	<fire>: You madly rush forth from your hiding place and throw yourself into the fire. You feel the heat and pain searing the flesh from your bones. It gets worse when you start to think there are hands grabbing at you. Everything goes black.
+
+You wake up in your apartment in your pajamas. Your things are strewn across your desk. Everything looks normal. Was that a dream?
+
+OKAY END
+——————————————————————————
+
+	<object>: You might be having a panic attack because you just considered fighting something that wasn’t here. Or maybe it’s whatever voodoo-magic-shit going on in the dog park that’s messing with your head. You don’t know anymore! BUSH DID 9/11 !!!!
+
+> Pick up <object>: There is literally nothing but actual dog shit to pick up here, and you really don’t want to touch that.
+
+> Talk to <figures>: “Um, excuse me? Are you allowed to have bonfires here?” you ask the group of figures. They pay you no mind. That’s fine. 
+
+	<self>: Maybe you’re just nuts. No. You’re definitely nuts, but still! You weren’t coming up with this kind of shit before! What has changed in the last three hours???
+
+	<object>: You get the feeling there’s many more things in the area that you can’t see, but you really don’t want to try to start a conversation with them.
+
+> Use <phone>: You don’t have your phone. / You pull out your phone and press the ‘on’ button. The screen flickers and then dies. Hoooooo boy.
+
+	<trash>: You don’t have any of that. / You fold the coupons into a paper airplane and launch it. It actually flies pretty well, but it also dive-bombs into the fire pretty well. D’awwwww. :-[
+
+	<keys>: You don’t have your keys. / You jingle your keys and try whistling for a dog. None show up. Oh, thank heavens. 
+
+	<object>: You don’t have anything like that.
+
+————————————————————————————
+	<drawing>: You don’t have any drawings. / You notice one of the figures on the edge of the spectacle looking in your direction. You shift uncomfortably and a branch snaps under your feet. More figures turn to you and you panic. Some of the figures approach you, you think, but you can’t tell for sure. You feel dizzy and light headed. The first figure is before you now. Your arm reaches into your pocket, out of your control. You grab the picture of a dog on a napkin and hold it out to the figure. 
+
+Many of the figures step back in surprise. Some of them gasp. The one before you removes their hood. Your dizziness dissipates. Before you stands an older man, with gray hair and a trimmed beard. He looks kindly, but wise. He grips your shoulder reassuringly- almost proudly. 
+
+“We have been waiting for you.”
+
+Years later you’ll remember the night you stumbled upon the Canine Cult with fondness. Both you and the cult were confused to see each other in the park, but when you revealed the token to them, they realized that you were the prophet they had been waiting for. Their leader explained their prophecies to you, and extended an invitation to you to join. It didn’t sound like a bad idea, so you went with it. Now you are the leader of the cult, with millions of members worldwide. You don’t remember ever feeling this happy in life. You don’t remember feeling like you belonged like this. You have thrown off the false security of your past life, and finally found your true home. 
+
+GOOD END
+————————————————————————————
+
+> Go <north>: You decide you don’t wanna be a part of this party. You sneak back out of the dog park, and back to the office. —> Go to room: Outside Office
+
+ROOM : Adventure!
+
+You wander to the north of the office for a while. You get lost pretty quickly. You could probably hold the record for ‘least amount of steps taken to get lost’, but you’d have to find Ripley’s Believe It or Not’s office to report it. You sigh. You see a bridge in the distance- further north. It’s the first thing you’ve seen that wasn’t dark, dirty streets or beat-up apartments.
+
+> Wait: You stand for a while, pace a bit, and look around. Yup. You’ve no idea where you are. It could be Alaska for all you know. Or Atlantis. You don’t have the energy to think of location names that don’t start with A.
+
+> Look at <bridge>: It’s just sitting there. Alone. Like you. 
+
+	<phone>: You don’t have your phone. / You look at your phone screen. It doesn’t actually look like you have any power.
+
+	<keys>: You don’t have your keys. / You look at your keys. Nope. Nothing helpful.
+
+	<drawing>: You take out the drawing of the dog. You stare at it longingly, as if it’s a picture of a lost lover. This is dumb and weird.
+
+	<object>: You see nothing but grime, grime, and more grime. And a little bit of guck.
+
+> Use <phone>: You don’t have your phone. / You take your phone out of your pocket and try to turn it on, but to no avail. It’s super dead- like, -20% battery dead. “Same,” you murmur as you slip it back into your pocket.
+
+	<keys>: You don’t have your keys. / You take out your keys and throw them. Just for the hell of it. They hit the pavement a few feet from you. You tiredly waddle over to them and pick them back up. 
+
+	<drawing>: You don’t have a drawing. / You take out the drawing of the dog. You stare at it longingly, as if it’s a picture of a lost lover. This is dumb and weird. 
+
+	<trash>: You don’t have any trash. / You fold the coupons into a paper airplane and launch it. It actually flies pretty well. It catches an updraft and drifts up over the edge of a building. Cool.
+
+	<object>: You can’t use that. 
+
+> Talk to <self>: You open your mouth to scream, but the stale air dries out your throat and you cough weakly instead.
+
+	<other>: “Hello?” you tentatively ask the silence. No answer. That’s probably a good thing.
+
+> Pick up <object>: There’s nothing here to pick up.
+
+——————————————————————
+> Attack <object>: You lash out in anger at nothing. The battle against nothing rages for about 30 seconds before you start to feel lightheaded. 
+Congrats! You fainted from fatigue! Later, you’ll wake up in the back of a truck with some sticky, black substance on your face (you hope it’s melted black licorice), surrounded by people speaking a language you don’t understand. You obviously didn’t make it home, and you obviously aren’t safe.
+
+BAD END
+——————————————————————
+
+————————————————————————
+> Go <north>: You stumble your way to the bridge. You step close to the railing and look down below at the river. You consider climbing on top of the rail and re-enacting the bridge scene from Les Miserables, but not the sad live stageplay/musical version: you mean the anime version in which Javert watches the sun rise over the horizon, says, “People can change,” and then walks away. 
+You’re pondering whether to go with Les Mis or the “Everything the light touches..” scene from the Lion King when the sun actually starts to rise. It’s beautiful. Gorgeous. You feel like a new person, standing here, watching the birth of a new day.
+You realize then: Home is wherever you are. You were never lost, you simply were not looking within yourself. / You take the newspaper and coupons out of your pocket and fashion them into a hat. You wear your crown with pride as you watch the dawn of a new day. 
+
+BEST END
+———————————————————————————
+
+———————————————————————————
+	<east> / <west>: You turn and go <direction>. You wander for much longer. You don’t even pay attention to your surroundings until you come to a small village with houses built into the hills. You look down. Your feet have swollen and grown hair. You don’t even know where your shoes went. You look back up. The world suddenly seems so large outside of this tiny town. You don’t feel like adventuring anymore, and decide to look for somewhere in town to stay. Maybe you’ll write a book about your adventures instead. 
+
+BAG END
+———————————————————————————
+
+———————————————————————————
+	<south>: You turn back, figuring the easiest route to take is the one you just took. You wander for a long while. Eventually, you lose track of your surroundings until you come to a small village with houses built into the hills. You look down. Your feet have swollen and grown hair. You don’t even know where your shoes went. You look back up. The world suddenly seems so large outside of this tiny town. You don’t feel like adventuring anymore, and decide to look for somewhere in town to stay. Maybe you’ll write a book about your adventures instead. 
+
+BAG END
+———————————————————————————
